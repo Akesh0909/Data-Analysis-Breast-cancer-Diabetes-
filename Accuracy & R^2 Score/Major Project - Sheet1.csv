@@ -1,0 +1,56 @@
+Breast Cancer,,,,,
+,Classification,,Accuracy,Accuracy,Accuracy
+S.no,Model,,K-NN,Decision Tree,SVM
+1,Min-max,,0.9649,0.9474,0.9737
+2,Z-score,,0.9474,0.9298,0.9825
+3,Robust Scaling,,0.9561,0.9386,0.9646
+4,Quantiletransformation,,0.9561,0.9386,0.9737
+5,Powertransformation,,0.9561,0.9386,0.9737
+6,Normaliser,,0.9298,0.9211,0.9123
+7,Tanh,,0.9386,0.8421,0.9474
+8,Yeojohmson,,0.9561,0.9298,0.9737
+9,Logtransformation,,0.9825,0.9474,0.9561
+,,,,,
+,,,Accuracy,Accuracy,Accuracy
+S.no,MClassifiaction,,K-NN,Decision Tree,SVM
+1,Min-Max,,0.9561,0.8246,0.9211
+2,Zscore,,0.9561,0.9123,0.9825
+3,Robust,,0.9561,0.9211,0.9649
+4,Logtransfromation,,0.9647,0.9474,0.9737
+5,BOxcox,,0.9737,0.9474,0.9474
+6,Yeojohnson,,0.9737,0.9386,0.9474
+7,PowerTransformation,,0.9737,0.9386,0.9474
+8,Quantile,,0.9649,0.8947,0.9737
+9,Pareto,,0.9649,0.9386,0.9825
+10,Tanh,,0.9686,0.8596,0.9474
+11,Poisson,,0.9646,0.9386,0.9825
+12,Cauchy,,0.9649,0.9386,0.9474
+13,Rank,,0.6228,0.6228,0.6228
+14,SquareRoot,,0.9737,0.9298,0.9474
+15,Arctan,,0.9386,0.9386,0.9386
+,,,,,
+,,,,,
+Diabetes,,,,,
+,,,R^2 Score,R^2 Score,R^2 Score
+S.no,MRegression,,Linear Regression,Decision Tree,Random Forest
+1,Min-max,,0.4526,0.105,0.455
+2,Z-Score,,0.4526,0.0095,0.4218
+3,Robust,,0.4526,0.0504,0.4265
+4,Logtansformation,,0.4504,0.1815,0.4296
+5,Quantiletransfromation,,0.4258,0.3345,0.358
+6,Arctan,,0.453,0.1078,0.4591
+7,Rank,,0.0182,-0.1547,-0.2359
+8,Thcauchy,,0.453,0.0074,0.4316
+9,Pareto,,0.4504,0.0928,0.4318
+,,,,,
+S.no,Regression,,R^2 Score,R^2 Score,R^2 Score
+,,,Linear Regression,Decision Tree,Random Forest
+1,Z-Score,,0.4526,0.0859,0.4319
+2,Min-max,,0.4526,-0.0083,0.4477
+3,Robust,,0.4526,0.0426,0.3949
+4,Quantile,,0.4541,-0.0344,0.4335
+5,Powertransformation,,0.4371,0.107,0.4279
+6,Tanh,,0.453,0.0591,0.4286
+7,Normalizer,,0.4581,0.0366,0.4777
+8,Yeojohnson,,0.4371,0.0478,0.4392
+9,Logtransfromation,,0.4504,-0.0386,0.4346
